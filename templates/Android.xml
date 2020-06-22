@@ -1,0 +1,83 @@
+<templateSet group="Android">
+  <template name="note" value="/**&#10; * $class$&#10; * @desc $desc$&#10; * @author $author$&#10; * @date $date$&#10; *&#10; */" description="注释" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="author" expression="user()" defaultValue="Vio.wang" alwaysStopAt="false" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="toast" value="android.widget.Toast.makeText($context$, &quot;$text$&quot;, Toast.LENGTH_SHORT).show();" description="Create a new Toast" toReformat="true" toShortenFQNames="true">
+    <variable name="context" expression="variableOfType(&quot;android.content.Context&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tag" value="private static final String TAG =  $className$.class.getSimpleName();" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="logd" value="if(BuildConfig.DEBUG)&#10;    Log.d(TAG, &quot;$text$&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="loge" value="if(BuildConfig.DEBUG)&#10;    Log.e(TAG, &quot;$text$&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="logi" value="if(BuildConfig.DEBUG)&#10;    Log.i(TAG, &quot;$text$&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="consts" value="private static final String $name$ = $value$;" description="Define android style String constant" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="NAME" alwaysStopAt="true" />
+    <variable name="value" expression="groovyScript(&quot;new Random().nextInt(1000)&quot;)" defaultValue="0" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="constl" value="private static final long $name$ = $value$;" description="Define android style long constant" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="NAME" alwaysStopAt="true" />
+    <variable name="value" expression="groovyScript(&quot;new Random().nextInt(1000)&quot;)" defaultValue="0" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="constf" value="private static final float $name$ = $value$;" description="Define android style float constant" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="NAME" alwaysStopAt="true" />
+    <variable name="value" expression="groovyScript(&quot;new Random().nextInt(1000)&quot;)" defaultValue="0" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="logm" value="if(BuildConfig.DEBUG)&#10;    Log.i(TAG, &quot;@$methodName$ --&gt; &quot; + &quot;$text$&quot;);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="methodName" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="fvb" value="$cast$ $cust$ = ($cast$) findViewById(R.id.$resId$);" description="findViewById with cast" toReformat="true" toShortenFQNames="true">
+    <variable name="cast" expression="expectedType()" defaultValue="" alwaysStopAt="true" />
+    <variable name="cust" expression="variableOfType(Type)" defaultValue="" alwaysStopAt="true" />
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try {&#10;            &#10;}catch (Exception e){&#10;            &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
