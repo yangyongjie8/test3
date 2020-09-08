@@ -4,6 +4,7 @@
       <mapping ext="webp" type="Image" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
+      <mapping ext="db" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
