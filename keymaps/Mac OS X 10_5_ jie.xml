@@ -46,9 +46,6 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
-  <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="meta alt f" />
-  </action>
   <action id="FindNext" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="meta g" />
