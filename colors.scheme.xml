@@ -1,5 +1,6 @@
 <application>
   <component name="EditorColorsManagerImpl">
-    <global_color_scheme name="VioDarcula" />
+    <option name="USE_ONLY_MONOSPACED_FONTS" value="false" />
+    <global_color_scheme name="202101" />
   </component>
 </application>
