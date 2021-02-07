@@ -1,14 +1,22 @@
 <keymap version="1" name="Mac OS X 10.5+ jie copy" parent="Mac OS X 10.5+">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="$Cut">
-    <keyboard-shortcut first-keystroke="meta x" />
+    <keyboard-shortcut first-keystroke="alt v" />
   </action>
   <action id="$Redo">
-    <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="alt y" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="alt z" />
   </action>
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
   <action id="ActivateTODOToolWindow" />
+  <action id="AddToFavoritesPopup" />
+  <action id="Android.CleanRun" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Back">
@@ -25,11 +33,23 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
   <action id="Editor Redo">
-    <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="alt y" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
+  <action id="EditorCreateRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="button2" />
   </action>
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="EditorDuplicate" />
   <action id="EditorNextWord" />
@@ -46,6 +66,12 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
   <action id="FindNext" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="meta g" />
@@ -58,6 +84,7 @@
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="alt button1" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
@@ -66,8 +93,9 @@
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="GotoSuperMethod" />
+  <action id="Gsonformat" />
   <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="meta m" />
+    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="HippieCompletion" />
   <action id="IntroduceField" />
@@ -75,36 +103,54 @@
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
   <action id="MinimizeCurrentWindow" />
   <action id="MoveLineDown">
-    <keyboard-shortcut first-keystroke="meta down" />
-  </action>
-  <action id="MoveLineUp">
-    <keyboard-shortcut first-keystroke="meta up" />
-  </action>
-  <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
-  <action id="MoveStatementUp">
+  <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="ParameterInfo" />
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="meta alt f8" />
+  </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="RebuildGradleProject">
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="meta alt l" />
-    <keyboard-shortcut first-keystroke="shift meta l" />
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="Refresh" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="RerunTests">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
   <action id="Resume" />
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
   <action id="SendEOF" />
+  <action id="ServiceView.GroupByContributor" />
   <action id="ShelvedChanges.Diff" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
+  <action id="ShowSearchHistory" />
   <action id="StructuralSearchPlugin.StructuralSearchAction">
     <keyboard-shortcut first-keystroke="ctrl meta p" />
   </action>
@@ -119,6 +165,7 @@
   <action id="TypeHierarchy.Class">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.Log.ShowDiff" />
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.CopyWatch" />
