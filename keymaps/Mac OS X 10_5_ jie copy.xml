@@ -1,8 +1,13 @@
 <keymap version="1" name="Mac OS X 10.5+ jie copy" parent="Mac OS X 10.5+">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="meta c" />
   </action>
   <action id="$Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
   <action id="$Redo">
@@ -35,8 +40,12 @@
   </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="meta c" />
   </action>
   <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
+  <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
   <action id="Editor Redo">
@@ -47,6 +56,9 @@
   </action>
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="button2" />
+  </action>
+  <action id="EditorCut">
+    <keyboard-shortcut first-keystroke="meta x" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt d" />
