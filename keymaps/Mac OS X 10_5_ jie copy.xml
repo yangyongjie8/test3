@@ -12,9 +12,11 @@
   </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="alt y" />
+    <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="alt z" />
+    <keyboard-shortcut first-keystroke="meta z" />
   </action>
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
@@ -50,9 +52,11 @@
   </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="alt y" />
+    <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="alt z" />
+    <keyboard-shortcut first-keystroke="meta z" />
   </action>
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="button2" />
