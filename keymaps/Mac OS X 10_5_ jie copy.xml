@@ -168,6 +168,7 @@
   <action id="Resume" />
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="alt s" />
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="SendEOF" />
   <action id="ServiceView.GroupByContributor" />
