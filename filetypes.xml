@@ -5,6 +5,7 @@
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping pattern="f" type="XML" />
     </extensionMap>
   </component>
 </application>
