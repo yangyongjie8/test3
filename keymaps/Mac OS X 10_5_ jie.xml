@@ -13,6 +13,7 @@
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="meta left" />
   </action>
   <action id="ChangesView.Diff" />
   <action id="ClassNameCompletion">
@@ -32,6 +33,14 @@
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="EditorDuplicate" />
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
   <action id="EditorNextWord" />
   <action id="EditorPreviousWord" />
   <action id="EditorSelectWord" />
@@ -52,6 +61,7 @@
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="meta right" />
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
@@ -87,6 +97,10 @@
   </action>
   <action id="MoveStatementUp">
     <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="NavBar-selectEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="ParameterInfo" />
   <action id="QuickImplementations">
