@@ -12,7 +12,6 @@
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Back">
-    <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="meta left" />
   </action>
   <action id="ChangesView.Diff" />
@@ -61,7 +60,6 @@
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="Forward">
-    <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="meta right" />
   </action>
   <action id="GotoChangedFile" />
