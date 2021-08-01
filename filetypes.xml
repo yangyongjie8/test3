@@ -6,6 +6,7 @@
       <mapping ext="keystore" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping pattern="f" type="XML" />
+      <mapping pattern="main_nav" type="XML" />
     </extensionMap>
   </component>
 </application>
